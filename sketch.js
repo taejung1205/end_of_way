@@ -11,15 +11,15 @@ function preload(){
   wrongSound = loadSound('assets/sounds/wrong.mp3');
   clearSound = loadSound('assets/sounds/clear.mp3');
   
-  qr_1 = loadImage('assets/images/qr_1.png', img => {
+  qr_1 = loadImage('assets/qr_1.png', img => {
     img.resize(200, 200);
   });
   
-  qr_2 = loadImage('assets/images/qr_2.png', img => {
+  qr_2 = loadImage('assets/qr_2.png', img => {
     img.resize(200, 200);
   });
   
-  qr_3 = loadImage('assets/images/qr_3.png', img => {
+  qr_3 = loadImage('assets/qr_3.png', img => {
     img.resize(200, 200);
   });
   
