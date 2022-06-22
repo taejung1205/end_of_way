@@ -626,6 +626,7 @@ function showPhone() {
     textStyle(BOLD);
     fill(255);
     textAlign(CENTER, CENTER);
+    textFont(nanumDahengFont);
     textSize(18);
     text("체크리스트", checklistX1 + checklistWidth / 2, checklistY1 + 20);
     textAlign(LEFT, CENTER);
@@ -635,6 +636,7 @@ function showPhone() {
     text("2. 봉사활동", checklistX1 + 10, checklistY1 + 80);
     textSize(15);
     text("3. 한국사 시험", checklistX1 + 10, checklistY1 + 110);
+    textFont('Noto Sans KR');
   } else if (mazeSceneNum == 5) {
     textSize(20);
     textAlign(CENTER, CENTER);

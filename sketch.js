@@ -39,6 +39,8 @@ function preload(){
     img.resize(200, 200);
     img.filter(BLUR, 5);
   });
+
+  nanumDahengFont = loadFont('assets/NanumDaheng.ttf');
   
   loadPathImg();
 }

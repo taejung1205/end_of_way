@@ -379,6 +379,7 @@ function showChecklist(x, y) {
   fill(102, 51, 0);
   textAlign(CENTER, CENTER);
   textSize(18);
+  textFont(nanumDahengFont);
   text("체크리스트", checklistX1 + checklistWidth / 2, checklistY1 + 20);
   textAlign(LEFT, CENTER);
   textSize(15);
@@ -387,6 +388,7 @@ function showChecklist(x, y) {
   text("2. 봉사활동", checklistX1 + 10, checklistY1 + 80);
   textSize(15);
   text("3. 한국사 시험", checklistX1 + 10, checklistY1 + 110);
+  textFont('Noto Sans KR');
 }
 function formatting(num) {
   if (int(num) < 10) {
