@@ -42,7 +42,7 @@ function showEndingScreen(){
   
   textSize(15);
   fill(150);
-  text("Made By\n\n김태정 이지수 타트아냐 이지수", width/2, height/2 + 50);
+  text("Made By\n\n김태정 이지수 타트아냐 한승현", width/2, height/2 + 50);
   textSize(10);
   text("아무 키를 눌러 시작 화면으로", width/2, height - 30);
 }
