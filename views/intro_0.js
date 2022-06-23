@@ -127,7 +127,7 @@ function showKakaoTalk_intro0(s) {
     fill(0);
     ellipse(kakaoX + 20, kakaoY + 60, 20, 20);
     fill(255);
-    rect(kakaoX + 40, kakaoY + 55, 110, 15);
+    rect(kakaoX + 40, kakaoY + 55, 120, 15);
     fill(0);
     text("얘들아 나 드디어 취업했어!", kakaoX + 45, kakaoY + 63);
   }
@@ -136,7 +136,7 @@ function showKakaoTalk_intro0(s) {
     fill(102, 100, 200);
     ellipse(kakaoX + 20, kakaoY + 95, 20, 20);
     fill(255);
-    rect(kakaoX + 40, kakaoY + 90, 70, 15);
+    rect(kakaoX + 40, kakaoY + 90, 80, 15);
     fill(0);
     text("진짜? 축하해!!!", kakaoX + 45, kakaoY + 98);
   }
@@ -144,7 +144,7 @@ function showKakaoTalk_intro0(s) {
     fill(50, 100, 50);
     ellipse(kakaoX + 20, kakaoY + 130, 20, 20);
     fill(255);
-    rect(kakaoX + 40, kakaoY + 125, 95, 15);
+    rect(kakaoX + 40, kakaoY + 125, 105, 15);
     fill(0);
     text("다들 요즘 뭐하고 지내?", kakaoX + 45, kakaoY + 133);
   }
@@ -153,7 +153,7 @@ function showKakaoTalk_intro0(s) {
     fill(150, 20, 50);
     ellipse(kakaoX + 20, kakaoY + 165, 20, 20);
     fill(255);
-    rect(kakaoX + 40, kakaoY + 160, 140, 15);
+    rect(kakaoX + 40, kakaoY + 160, 150, 15);
     fill(0);
     text("나 임용 합격했잖아. 발령기다리는중!", kakaoX + 45, kakaoY + 168);
   }
@@ -162,7 +162,7 @@ function showKakaoTalk_intro0(s) {
     fill(200, 100, 100);
     ellipse(kakaoX + 20, kakaoY + 200, 20, 20);
     fill(255);
-    rect(kakaoX + 40, kakaoY + 195, 80, 15);
+    rect(kakaoX + 40, kakaoY + 195, 90, 15);
     fill(0);
     text("나는 로스쿨 가려고", kakaoX + 45, kakaoY + 203);
   }
@@ -171,7 +171,7 @@ function showKakaoTalk_intro0(s) {
     fill(0);
     ellipse(kakaoX + 20, kakaoY + 235, 20, 20);
     fill(255);
-    rect(kakaoX + 40, kakaoY + 230, 90, 15);
+    rect(kakaoX + 40, kakaoY + 230, 100, 15);
     fill(0);
     text("ㅇㅇ이는 뭐하고 지내?", kakaoX + 45, kakaoY + 238);
   }
