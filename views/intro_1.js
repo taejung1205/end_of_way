@@ -80,7 +80,7 @@ function showKakaoTalk_intro1(s) {
     fill(0);
     ellipse(kakaoX + 20, kakaoY + 60, 20, 20);
     fill(255);
-    rect(kakaoX + 40, kakaoY + 50, 110, 30);
+    rect(kakaoX + 40, kakaoY + 50, 120, 30);
     fill(0);
     text("OO아, 잘 지내니?\n단톡에서 말이 없길래...", kakaoX + 45, kakaoY + 65);
   }
@@ -89,7 +89,7 @@ function showKakaoTalk_intro1(s) {
     fill(0);
     ellipse(kakaoX + 20, kakaoY + 95, 20, 20);
     fill(255);
-    rect(kakaoX + 40, kakaoY + 90, 115, 15);
+    rect(kakaoX + 40, kakaoY + 90, 125, 15);
     fill(0);
     text("시간 나면 이 QR코드 찍어봐.", kakaoX + 45, kakaoY + 98);
   }
