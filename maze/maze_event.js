@@ -373,6 +373,9 @@ function showClearEvent() {
 
 function showQR(img, x, y) {
   imageMode(CORNER);
+  fill(255);
+  rectMode(CORNER);
+  rect(x-10, y-10, img.width + 20, img.height + 20);
   image(img, x, y);
 }
 
